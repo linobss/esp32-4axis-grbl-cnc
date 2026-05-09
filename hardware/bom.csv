@@ -1,0 +1,26 @@
+Reference,Value,Package,Datasheet,Supplier,Link,Unit_Cost,Qty,Total_Cost,Notes
+U1,ESP32-DevKitC V4,40-pin,https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf,AZ-Delivery,https://www.az-delivery.de,15.99,1,15.99,38-pin DIP variant
+U2,DRV8825/A4988,SOIC8/DIP8,https://www.ti.com/lit/ds/symlink/drv8825.pdf,Digikey,https://www.digikey.com,3.50,4,14.00,Stepper driver X
+U3,DRV8825/A4988,SOIC8/DIP8,https://www.ti.com/lit/ds/symlink/drv8825.pdf,Digikey,https://www.digikey.com,3.50,4,14.00,Stepper driver Y
+U4,DRV8825/A4988,SOIC8/DIP8,https://www.ti.com/lit/ds/symlink/drv8825.pdf,Digikey,https://www.digikey.com,3.50,4,14.00,Stepper driver Z
+U5,DRV8825/A4988,SOIC8/DIP8,https://www.ti.com/lit/ds/symlink/drv8825.pdf,Digikey,https://www.digikey.com,3.50,4,14.00,Stepper driver A
+U6,AMS1117-3.3,SOT223,http://www.alldatasheet.com/datasheets/ams1117,Amazon,https://www.amazon.com,0.50,1,0.50,3.3V regulator
+U7,LM7805,TO220,https://www.ti.com/product/LM7805,Digikey,https://www.digikey.com,0.75,1,0.75,5V regulator (optional)
+C1,100nF,0603,https://www.yageo.com/upload/downloadfile/Spec_COG_X7R_Dielectric_2022.pdf,Digikey,https://www.digikey.com,0.10,10,1.00,Decoupling capacitors
+C2,10µF,0805,https://www.yageo.com/upload/downloadfile/Spec_COG_X7R_Dielectric_2022.pdf,Digikey,https://www.digikey.com,0.15,3,0.45,Bulk capacitors
+C3,47µF,1206,https://www.yageo.com/upload/downloadfile/Spec_COG_X7R_Dielectric_2022.pdf,Digikey,https://www.digikey.com,0.25,2,0.50,Bulk capacitors power rail
+R1,1kΩ,0603,https://www.vishay.com/docs/20035/dcrcw.pdf,Digikey,https://www.digikey.com,0.05,5,0.25,Current limit resistors
+R2,10kΩ,0603,https://www.vishay.com/docs/20035/dcrcw.pdf,Digikey,https://www.digikey.com,0.05,10,0.50,Pull-up/down resistors
+R3,220Ω,0603,https://www.vishay.com/docs/20035/dcrcw.pdf,Digikey,https://www.digikey.com,0.05,2,0.10,LED current limiting
+D1,1N4007,DO-41,https://www.vishay.com/docs/87611/1n4007.pdf,Digikey,https://www.digikey.com,0.10,4,0.40,Motor protection diodes
+D2,LED (Red),0603,https://www.kingbright.com/attachments/file/psearch/product/L-934F3FT-26-1.3V-20mA.pdf,Digikey,https://www.digikey.com,0.15,2,0.30,Status LED
+J1,USB Micro-B,SMD,https://www.molex.com/pdm_docs/sd/504050-0892_sd.pdf,Digikey,https://www.digikey.com,0.50,1,0.50,Programming/Debug
+J2,2.54mm Header 2x20,Through-hole,https://www.jst.co.jp,Amazon,https://www.amazon.com,1.00,1,1.00,ESP32 breakout
+J3,2.54mm Header 2x4,Through-hole,https://www.jst.co.jp,Amazon,https://www.amazon.com,0.50,4,2.00,Motor connectors (X Y Z A)
+J4,2.54mm Header 1x3,Through-hole,https://www.jst.co.jp,Amazon,https://www.amazon.com,0.30,6,1.80,Limit switch connectors
+J5,2.54mm Header 1x2,Through-hole,https://www.jst.co.jp,Amazon,https://www.amazon.com,0.20,3,0.60,Power connectors
+SW1,Momentary Push Button,6x6mm,https://www.e-switch.com/documents/10120/90098-1.pdf,Digikey,https://www.digikey.com,0.50,1,0.50,Reset button
+HS1,Heatsink,20x20mm,N/A,Amazon,https://www.amazon.com,1.00,4,4.00,For stepper drivers
+PCB,2-layer PCB,100x80mm,N/A,JLSPCB,https://jlspcb.com,5.00,5,25.00,Prototype run of 5
+,,,,,,,,,
+TOTAL,,,,,,,,105.14,

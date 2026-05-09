@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# KiCad
+*.kicad_pcb-bak
+*.sch-bak
+*.kicad_pcb~
+*.kicad_sch~
+fp-info-cache
+
+# Gerber & Manufacturing
+*.zip
+*.tar.gz
+
+# Build outputs
+*.o
+*.elf
+*.bin
+.pio/
+build/
+
+# Documentation
+*.pdf
+*.docx
+.~*
+
+# OS
+Thumbs.db
+.DS_Store
